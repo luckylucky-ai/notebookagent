@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# Keep vault structure but ignore user-generated notes
+vault/**/*.md
+data/knowledge_base.json
+
+# Keep .gitkeep files
+!.gitkeep
